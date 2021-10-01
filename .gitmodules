@@ -1,0 +1,8 @@
+[submodule "riccardomarin.github.io/public"]
+	path = riccardomarin.github.io/public
+	url = https://github.com/riccardomarin/riccardomarin.github.io.git
+	branch = main
+[submodule "spark/public/public"]
+	path = spark/public/public
+	url = https://github.com/riccardomarin/riccardomarin.github.io
+	branch = main

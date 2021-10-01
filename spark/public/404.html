@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<title>404 Page not found &mdash; Akshay Raj Gollahalli</title>
+
+<meta name="robots" content="index, follow">
+
+<link rel="shortcut icon" href="/img/favicon.ico" />
+<link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="/img/favicon.ico">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/favicon-152-precomposed.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/favicon-144-precomposed.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/favicon-120-precomposed.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/favicon-114-precomposed.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon-180-precomposed.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/favicon-72-precomposed.png">
+<link rel="apple-touch-icon" href="/img/favicon-57.png">
+<link rel="icon" href="/img/favicon-32.png" sizes="32x32">
+<link rel="manifest" href="/img/manifest.json">
+<link rel="icon" sizes="192x192" href="/img/favicon-192.png">
+
+<link rel="canonical" href="https://www.gollahalli.com/404.html"/>
+<link rel="alternate" type="application/rss+xml" title="RSS Feed for Akshay Raj Gollahalli" href="https://www.gollahalli.com/index.xml" />
+
+<meta name="description" content=""/>
+<meta itemprop="description" content=""/><script type="application/ld+json">
+    {
+        "url":"https://www.gollahalli.com/404.html",
+        "name":"Akshay Raj Gollahalli",
+        "description":null,
+        
+        "image":"https://www.gollahalli.com/img/akshay.jpg",
+        
+        "@context":"http://schema.org",
+        "@type":"WebSite"
+    }
+</script>
+  <meta itemprop="thumbnailUrl" content="https://www.gollahalli.com/img/akshay.jpg"/>
+
+
+
+
+
+
+<meta property="og:title" content="404 Page not found" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.gollahalli.com/404.html" />
+
+
+<meta itemprop="name" content="404 Page not found">
+<meta itemprop="description" content="">
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="404 Page not found"/>
+<meta name="twitter:description" content=""/>
+
+
+<link href="https://fonts.googleapis.com/css?family=Space&#43;Mono:400,700" rel="stylesheet">
+
+
+    
+    <link rel="stylesheet" href="https://www.gollahalli.com/css/uikit.min.css">
+
+    
+    
+    <link rel="stylesheet" href="https://www.gollahalli.com/main.min.css">
+
+
+
+
+</head>
+<body>
+<div class="uk-height-viewport uk-background-cover uk-background-primary uk-overflow-hidden uk-light uk-flex uk-flex-top"
+     style="background: #1d1f21">
+    <div class="uk-width-1-2@xl uk-text-center uk-margin-auto uk-margin-auto-vertical">
+        <h1>404!</h1>
+
+        <ul class="uk-subnav uk-subnav-divider uk-flex-center uk-visible@m gol-subnav">
+            
+        </ul>
+        <p>The page you are looking for cannot be found.</p>
+    </div>
+</div>
+
+
+
+<div class="uk-position-medium uk-position-top-right uk-visible@m">
+    <a class="uk-search-toggle" uk-search-icon href="#"></a>
+    <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+        <div class="uk-search uk-search-navbar uk-width-1-1">
+            <div class="uk-search-input" id="searchBox"></div>
+            <div uk-dropdown="mode: click">
+                <div id="hits"></div>
+                <br/>
+                <img class="uk-margin-remove uk-align-right uk-preserve"
+                     src="/img/algolia-powered-by-8762ce8b.svg" uk-svg alt="Algolia logo">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<a class="uk-position-medium uk-position-top-right uk-hidden@m" href="#offcanvas" uk-navbar-toggle-icon uk-toggle></a>
+<div id="offcanvas" uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+        <ul class="uk-nav uk-nav-default">
+            
+        </ul>
+
+    </div>
+</div>
+
+
+
+    
+    <script src="https://www.gollahalli.com/js/uikit.min.js"></script>
+
+    
+    <script src="https://www.gollahalli.com/js/uikit-icons.min.js"></script>
+
+    
+    <script src="https://www.gollahalli.com/js/algoliasearch.umd.js"></script>
+
+    
+    <script src="https://www.gollahalli.com/js/instantsearch.production.min.js"></script>
+
+
+<script>
+
+    const search = instantsearch({
+        indexName: 'gollahalli-website',
+        searchClient: algoliasearch('UT1XVMZE1Q', 'fadcde84f1cdaf165d51c20a50336188'),
+        searchFunction: function (helper) {
+            if (helper.state.query === '') {
+                if (document.getElementById("hits") != null) {
+                    document.querySelector('#hits').innerHTML = '<p id="searchHelper">Type to search...</p>';
+                }
+                return;
+            } else {
+                document.querySelector('#searchHelper').classList.toggle('uk-hidden');
+            }
+            helper.search();
+        }
+    });
+
+    
+</script>
+
+
+    
+    <script src="https://www.gollahalli.com/js/custom.min.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
